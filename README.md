@@ -129,7 +129,7 @@ En este código hay que destacar dos cosas:
 
 La primera de ellas es que la sentencia ```print("[INFO] Set of attributes:", object.__dict__)``` nos
 devolverá los atributos que posea la clase. Esto no es nada nuevo pero lo que sí podemos apreciar es que, en
-esta ocasión, para poder acceder al atributo privado, deberemos hacerlo mediante la sintaxis: **_<nombre de la clase>__<nombre del atributo>**.
+esta ocasión, para poder acceder al atributo privado, deberemos hacerlo mediante la sintaxis: _nombre de la clase__nombre del atributo.
 
 El segundo detalle es que, en base a lo indicado en el párrafo anterior, si tratamos de ejecutar la sentencia
 ```print("[RES ] Getting the new value:", object.__x)``` vamos a obtener una excepción del tipo
